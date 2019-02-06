@@ -14,7 +14,11 @@ function logShout(string) {
   console.log(string.toUpperCase())
 }
 
- 
+ function sayHiToGrandma(string){
+   if (string.toUpperCase() ===  string){
+     return 'YES INDEED!'
+   }
+ }
 
 function sayHiToGrandma(string){
     if (string.toLowerCase() === string)
